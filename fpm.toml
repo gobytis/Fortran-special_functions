@@ -7,7 +7,5 @@ copyright = "Copyright 2023, gobytis"
 auto-executables = true
 auto-tests = true
 auto-examples = true
-external-modules = ["stdlib_version"]
-link = ["stdlib"]
 [install]
 library = false
