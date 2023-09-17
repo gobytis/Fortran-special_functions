@@ -1,0 +1,13 @@
+name = "special_functions"
+version = "0.1.0"
+license = "license"
+author = "gobytis"
+copyright = "Copyright 2023, gobytis"
+[build]
+auto-executables = true
+auto-tests = true
+auto-examples = true
+external-modules = ["stdlib_version"]
+link = ["stdlib"]
+[install]
+library = false
